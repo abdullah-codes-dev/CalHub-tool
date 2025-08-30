@@ -27,12 +27,12 @@ export default function RootLayout({
 			<head suppressHydrationWarning>
 				<meta
 					name='google-site-verification'
-					content='3dFjjtklPvrI81RGWHubCGvKPwP0xFOD1FcHb3tZBng'
+					content='sFQ_PiT6qifuFLt_QJrDzNoOpZK6WVAHHLcxjYg9pEo'
 				/>
 				{/* Google Analytics Script */}
 				<script
 					async
-					src='https://www.googletagmanager.com/gtag/js?id=G-3TRBTMGL5N'
+					src='https://www.googletagmanager.com/gtag/js?id=G-SDY34EVLHH'
 				/>
 				<script
 					dangerouslySetInnerHTML={{
@@ -40,13 +40,13 @@ export default function RootLayout({
 							window.dataLayer = window.dataLayer || [];
 							function gtag(){dataLayer.push(arguments);}
 							gtag('js', new Date());
-							gtag('config', 'G-3TRBTMGL5N');
+							gtag('config', 'G-SDY34EVLHH');
 						`,
 					}}
 				/>
 				<script
 					async
-					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3138751846532107'
+					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4367336734564969'
 					crossOrigin='anonymous'
 				/>
 			</head>
