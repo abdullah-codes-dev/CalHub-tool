@@ -9,7 +9,7 @@ export default function TermsPage() {
 						Terms of Service
 					</h1>
 					<p className='text-xl text-gray-600'>
-						Last updated: January 2024
+						Last updated: Aug 2025
 					</p>
 				</div>
 
@@ -24,7 +24,7 @@ export default function TermsPage() {
 									1. Acceptance of Terms
 								</h2>
 								<p className='text-gray-600'>
-									By accessing and using CalcHub (&quot;the
+									By accessing and using JazzCasher (&quot;the
 									Service&quot;), you accept and agree to be
 									bound by the terms and provision of this
 									agreement. If you do not agree to abide by
@@ -38,7 +38,7 @@ export default function TermsPage() {
 								</h2>
 								<p className='text-gray-600 mb-3'>
 									Permission is granted to temporarily use
-									CalcHub for personal, non-commercial
+									JazzCasher for personal, non-commercial
 									transitory viewing only. This is the grant
 									of a license, not a transfer of title, and
 									under this license you may not:
@@ -65,8 +65,8 @@ export default function TermsPage() {
 									3. Disclaimer
 								</h2>
 								<p className='text-gray-600'>
-									The materials on CalcHub are provided on an
-									&quot;as is&quot; basis. CalcHub makes no
+									The materials on JazzCasher are provided on an
+									&quot;as is&quot; basis. JazzCasher makes no
 									warranties, expressed or implied, and hereby
 									disclaims and negates all other warranties
 									including without limitation, implied
@@ -83,7 +83,7 @@ export default function TermsPage() {
 								</h2>
 								<p className='text-gray-600'>
 									While we strive to provide accurate
-									calculations, CalcHub does not warrant that
+									calculations, JazzCasher does not warrant that
 									the results from our calculators are
 									error-free or will meet your requirements.
 									Users should verify important calculations
@@ -98,12 +98,12 @@ export default function TermsPage() {
 									5. Limitations
 								</h2>
 								<p className='text-gray-600'>
-									In no event shall CalcHub or its suppliers
+									In no event shall JazzCasher or its suppliers
 									be liable for any damages (including,
 									without limitation, damages for loss of data
 									or profit, or due to business interruption)
 									arising out of the use or inability to use
-									CalcHub, even if CalcHub or its authorized
+									CalcHub, even if JazzCasher or its authorized
 									representative has been notified orally or
 									in writing of the possibility of such
 									damage.
@@ -128,7 +128,7 @@ export default function TermsPage() {
 									7. Modifications
 								</h2>
 								<p className='text-gray-600'>
-									CalcHub may revise these terms of service at
+									JazzCasher may revise these terms of service at
 									any time without notice. By using this
 									website, you are agreeing to be bound by the
 									then current version of these terms of
@@ -143,7 +143,7 @@ export default function TermsPage() {
 								<p className='text-gray-600'>
 									If you have any questions about these Terms
 									of Service, please contact us at
-									support@calchub.com.
+									support@JazzCasher.com.
 								</p>
 							</section>
 						</div>
