@@ -22,7 +22,7 @@ export default function DisclaimerPage() {
               <section>
                 <h2 className="text-xl font-semibold mb-3">1. General Disclaimer</h2>
                 <p className="text-gray-600">
-                  The information and calculations provided by CalcHub are for educational and informational purposes
+                  The information and calculations provided by JazzCasher are for educational and informational purposes
                   only. While we strive for accuracy, we make no representations or warranties of any kind, express or
                   implied, about the completeness, accuracy, reliability, suitability, or availability of the
                   information, products, services, or related graphics contained on the website.
@@ -69,7 +69,7 @@ export default function DisclaimerPage() {
               <section>
                 <h2 className="text-xl font-semibold mb-3">6. Limitation of Liability</h2>
                 <p className="text-gray-600">
-                  In no event will CalcHub be liable for any loss or damage including without limitation, indirect or
+                  In no event will JazzCasher be liable for any loss or damage including without limitation, indirect or
                   consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits
                   arising out of, or in connection with, the use of this website or its calculators.
                 </p>
