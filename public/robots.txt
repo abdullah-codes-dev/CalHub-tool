@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://calculator-tools.com/sitemap.xml
+
+# Allow crawling of all calculator tools
+Allow: /tools/
+
+# Allow crawling of all static pages
+Allow: /about
+Allow: /contact
+Allow: /disclaimer
+Allow: /privacy
+Allow: /terms
