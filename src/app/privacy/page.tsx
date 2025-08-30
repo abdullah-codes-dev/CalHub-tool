@@ -9,7 +9,7 @@ export default function PrivacyPage() {
 						Privacy Policy
 					</h1>
 					<p className='text-xl text-gray-600'>
-						Last updated: January 2024
+						Last updated: Aug 2025
 					</p>
 				</div>
 
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
 									1. Information We Collect
 								</h2>
 								<p className='text-gray-600'>
-									CalcHub is designed with privacy in mind. We
+									JazzCasher is designed with privacy in mind. We
 									do not collect, store, or transmit any
 									personal information or calculation data.
 									All calculations are performed locally in
@@ -134,7 +134,7 @@ export default function PrivacyPage() {
 								<p className='text-gray-600'>
 									If you have any questions about this Privacy
 									Policy, please contact us at
-									privacy@example.com.
+									privacy@JazzCasher.com.
 								</p>
 							</section>
 						</div>
