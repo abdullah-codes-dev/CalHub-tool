@@ -40,12 +40,10 @@ export default function AboutPage() {
 			<div className='max-w-4xl mx-auto'>
 				<div className='text-center mb-12'>
 					<h1 className='text-4xl font-bold text-gray-800 mb-6'>
-						About CalcHub
+						About JazzCasher
 					</h1>
 					<p className='text-xl text-gray-600 max-w-2xl mx-auto'>
-						Your trusted destination for professional calculator
-						tools. We provide accurate, fast, and free calculation
-						solutions for all your needs.
+						Empowering you with professional-grade calculators that are accurate, efficient, and completely free to use..
 					</p>
 				</div>
 
@@ -77,7 +75,7 @@ export default function AboutPage() {
 					<CardContent>
 						<div className='prose max-w-none'>
 							<p className='text-gray-600 mb-4'>
-								At CalcHub, we believe that everyone should have
+								At JazzCasher, we believe that everyone should have
 								access to reliable calculation tools without the
 								hassle of complex software or expensive
 								subscriptions. Our mission is to provide free,
@@ -95,7 +93,7 @@ export default function AboutPage() {
 								latest mathematical standards.
 							</p>
 							<h3 className='text-lg font-semibold mb-2 text-gray-800'>
-								Why Choose CalcHub?
+								Why Choose JazzCasher?
 							</h3>
 							<ul className='list-disc list-inside space-y-1 text-gray-600'>
 								<li>100% free to use with no hidden charges</li>
