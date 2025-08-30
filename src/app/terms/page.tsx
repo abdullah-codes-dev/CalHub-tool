@@ -103,7 +103,7 @@ export default function TermsPage() {
 									without limitation, damages for loss of data
 									or profit, or due to business interruption)
 									arising out of the use or inability to use
-									CalcHub, even if JazzCasher or its authorized
+									JazzCasher, even if JazzCasher or its authorized
 									representative has been notified orally or
 									in writing of the possibility of such
 									damage.
