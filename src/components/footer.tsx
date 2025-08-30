@@ -12,16 +12,15 @@ export function Footer() {
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <Calculator className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">CalcHub</span>
+              <span className="text-xl font-bold">JazzCasher</span>
             </Link>
             <p className="text-gray-400 mb-4 max-w-md">
-              Your trusted destination for professional calculator tools. We provide accurate, fast, and free
-              calculation solutions for all your needs.
+              Your reliable source for advanced calculator tools, delivering fast, accurate, and free solutions tailored to all your calculation needs.
             </p>
             <div className="flex space-x-4">
               <div className="flex items-center space-x-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <span>support@calchub.com</span>
+                <span>support@JazzCasher.com</span>
               </div>
             </div>
           </div>
@@ -104,7 +103,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 CalcHub. All rights reserved. Built with precision and care.</p>
+          <p>&copy; 2025 JazzCasher. All rights reserved. Built with precision and care.</p>
         </div>
       </div>
     </footer>
