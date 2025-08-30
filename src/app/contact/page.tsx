@@ -38,7 +38,7 @@ export default function ContactPage() {
 									<div>
 										<div className='font-medium'>Email</div>
 										<div className='text-gray-600'>
-											support@calchub.com
+											support@JazzCasher.com
 										</div>
 									</div>
 								</div>
@@ -49,7 +49,7 @@ export default function ContactPage() {
 									<div>
 										<div className='font-medium'>Phone</div>
 										<div className='text-gray-600'>
-											+1 (555) 123-4567
+											+923077937799
 										</div>
 									</div>
 								</div>
@@ -62,9 +62,9 @@ export default function ContactPage() {
 											Address
 										</div>
 										<div className='text-gray-600'>
-											123 Calculator Street
+											Taj Town Abdullah Garden
 											<br />
-											Math City, MC 12345
+											Minchinabad, MC 62230
 										</div>
 									</div>
 								</div>
