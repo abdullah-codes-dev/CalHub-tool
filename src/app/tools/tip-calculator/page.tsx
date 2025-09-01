@@ -47,7 +47,7 @@ export default function TipCalculator() {
       <Head>
         <title>Tip Calculator - JazzCasher</title>
         <meta name="description" content="Calculate tips and split bills easily on JazzCasher.site" />
-        <link rel="canonical" href="https://jazzcasher.site/tip-calculator" />
+        <link rel="canonical" href="https://jazzcasher.site/tools/tip-calculator" />
       </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-green-50 py-12 px-4">
