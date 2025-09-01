@@ -60,7 +60,7 @@ export default function PercentageCalculator() {
 					name="description"
 					content="Calculate percentages, percentage increase/decrease, and percentage change easily using our free Percentage Calculator."
 				/>
-				<link rel="canonical" href="https://www.yoursite.com/percentage-calculator" />
+				<link rel="canonical" href="https://www.jazzcasher.site/percentage-calculator" />
 			</Head>
 
 			<div className='min-h-screen bg-gradient-to-br from-slate-50 to-purple-50 py-12 px-4'>
