@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Head from "next/head"; // ✅ Import Head for canonical
+import Head from "next/head"; // ✅ Import Head for canonical & SEO
 import { Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -37,11 +37,7 @@ export default function AgeCalculator() {
 
 		if (days < 0) {
 			months--;
-			const lastMonth = new Date(
-				today.getFullYear(),
-				today.getMonth(),
-				0
-			);
+			const lastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
 			days += lastMonth.getDate();
 		}
 
@@ -50,9 +46,7 @@ export default function AgeCalculator() {
 			months += 12;
 		}
 
-		const totalDays = Math.floor(
-			(today.getTime() - birth.getTime()) / (1000 * 60 * 60 * 24)
-		);
+		const totalDays = Math.floor((today.getTime() - birth.getTime()) / (1000 * 60 * 60 * 24));
 		const totalWeeks = Math.floor(totalDays / 7);
 		const totalMonths = years * 12 + months;
 
@@ -68,8 +62,13 @@ export default function AgeCalculator() {
 
 	return (
 		<>
-			{/* ✅ Canonical tag added */}
+			{/* ✅ Canonical + SEO Meta Tags */}
 			<Head>
+				<title>Age Calculator | JazzCasher</title>
+				<meta
+					name="description"
+					content="Use our free Age Calculator to find your exact age in years, months, days, weeks, and months instantly."
+				/>
 				<link
 					rel="canonical"
 					href="https://www.jazzcasher.site/tools/age-calculator"
@@ -105,9 +104,7 @@ export default function AgeCalculator() {
 										id='birthdate'
 										type='date'
 										value={birthDate}
-										onChange={(e) =>
-											setBirthDate(e.target.value)
-										}
+										onChange={(e) => setBirthDate(e.target.value)}
 										max={new Date().toISOString().split("T")[0]}
 									/>
 								</div>
@@ -132,9 +129,7 @@ export default function AgeCalculator() {
 									<div className='space-y-4'>
 										<div className='text-center p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg'>
 											<div className='text-3xl font-bold text-blue-600 mb-2'>
-												{result.years} Years,{" "}
-												{result.months} Months,{" "}
-												{result.days} Days
+												{result.years} Years, {result.months} Months, {result.days} Days
 											</div>
 										</div>
 
@@ -143,33 +138,25 @@ export default function AgeCalculator() {
 												<div className='text-2xl font-bold text-gray-800'>
 													{result.totalDays}
 												</div>
-												<div className='text-sm text-gray-600'>
-													Total Days
-												</div>
+												<div className='text-sm text-gray-600'>Total Days</div>
 											</div>
 											<div className='text-center p-4 bg-gray-50 rounded-lg'>
 												<div className='text-2xl font-bold text-gray-800'>
 													{result.totalWeeks}
 												</div>
-												<div className='text-sm text-gray-600'>
-													Total Weeks
-												</div>
+												<div className='text-sm text-gray-600'>Total Weeks</div>
 											</div>
 											<div className='text-center p-4 bg-gray-50 rounded-lg'>
 												<div className='text-2xl font-bold text-gray-800'>
 													{result.totalMonths}
 												</div>
-												<div className='text-sm text-gray-600'>
-													Total Months
-												</div>
+												<div className='text-sm text-gray-600'>Total Months</div>
 											</div>
 											<div className='text-center p-4 bg-gray-50 rounded-lg'>
 												<div className='text-2xl font-bold text-gray-800'>
 													{result.years}
 												</div>
-												<div className='text-sm text-gray-600'>
-													Total Years
-												</div>
+												<div className='text-sm text-gray-600'>Total Years</div>
 											</div>
 										</div>
 									</div>
@@ -185,27 +172,14 @@ export default function AgeCalculator() {
 						<CardContent>
 							<div className='prose max-w-none'>
 								<p className='text-gray-600 mb-4'>
-									Our age calculator helps you determine your
-									exact age in years, months, and days. Simply
-									enter your birth date and get instant results.
+									Our age calculator helps you determine your exact age in years, months, and days. Simply enter your birth date and get instant results.
 								</p>
-								<h3 className='text-lg font-semibold mb-2'>
-									Features:
-								</h3>
+								<h3 className='text-lg font-semibold mb-2'>Features:</h3>
 								<ul className='list-disc list-inside space-y-1 text-gray-600'>
-									<li>
-										Calculate exact age in years, months, and
-										days
-									</li>
-									<li>
-										View total days, weeks, and months lived
-									</li>
-									<li>
-										Accurate calculations considering leap years
-									</li>
-									<li>
-										Easy-to-use interface with instant results
-									</li>
+									<li>Calculate exact age in years, months, and days</li>
+									<li>View total days, weeks, and months lived</li>
+									<li>Accurate calculations considering leap years</li>
+									<li>Easy-to-use interface with instant results</li>
 								</ul>
 							</div>
 						</CardContent>
