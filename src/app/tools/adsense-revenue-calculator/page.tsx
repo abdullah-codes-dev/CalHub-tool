@@ -47,8 +47,13 @@ export default function AdSenseCalculator() {
 
 	return (
 		<>
-			{/* ✅ Canonical tag added */}
+			{/* ✅ SEO: Title + Meta Description + Canonical */}
 			<Head>
+				<title>AdSense Revenue Calculator | JazzCasher</title>
+				<meta
+					name="description"
+					content="Use our free AdSense Revenue Calculator to estimate your daily, monthly, and yearly AdSense earnings based on page views, CTR, and CPC."
+				/>
 				<link
 					rel="canonical"
 					href="https://www.jazzcasher.site/tools/adsense-revenue-calculator"
