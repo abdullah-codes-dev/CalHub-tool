@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Head from "next/head"; // ✅ Import Head for canonical
+import Head from "next/head";
 import { GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -41,7 +41,6 @@ export default function GPAConverter() {
 
 		if (!inputGPA || !fromMax || !toMax || fromScale === toScale) return;
 
-		// Convert to percentage first, then to target scale
 		const percentage = (inputGPA / fromMax) * 100;
 		const convertedGPA = (percentage / 100) * toMax;
 
@@ -50,9 +49,21 @@ export default function GPAConverter() {
 
 	return (
 		<>
-			{/* ✅ Canonical tag added */}
+			{/* ✅ SEO + Canonical */}
 			<Head>
+				<title>GPA Calculator & Converter | JazzCasher</title>
+				<meta
+					name="description"
+					content="Easily convert your GPA between 4.0, 5.0, 10.0, and percentage scales using our free GPA Calculator & Converter tool."
+				/>
 				<link rel="canonical" href="https://www.jazzcasher.site/tools/gpa-calculator" />
+				<meta property="og:type" content="website" />
+				<meta property="og:title" content="GPA Calculator & Converter | JazzCasher" />
+				<meta
+					property="og:description"
+					content="Free GPA Calculator to convert your GPA between 4.0, 5.0, 10.0, and percentage grading systems."
+				/>
+				<meta property="og:url" content="https://www.jazzcasher.site/tools/gpa-calculator" />
 			</Head>
 
 			<div className='min-h-screen bg-gradient-to-br from-slate-50 to-indigo-50 py-12 px-4'>
@@ -139,55 +150,11 @@ export default function GPAConverter() {
 												{gpa} on {scales[fromScale as keyof typeof scales]?.name} = {result} on {scales[toScale as keyof typeof scales]?.name}
 											</div>
 										</div>
-
-										<div className='space-y-2'>
-											<h3 className='font-semibold'>Grade Equivalents:</h3>
-											<div className='space-y-1 text-sm'>
-												<div className='flex justify-between'><span>A+ (Excellent)</span><span className='text-green-600'>90-100%</span></div>
-												<div className='flex justify-between'><span>A (Very Good)</span><span className='text-green-600'>80-89%</span></div>
-												<div className='flex justify-between'><span>B (Good)</span><span className='text-blue-600'>70-79%</span></div>
-												<div className='flex justify-between'><span>C (Average)</span><span className='text-yellow-600'>60-69%</span></div>
-												<div className='flex justify-between'><span>D (Below Average)</span><span className='text-orange-600'>50-59%</span></div>
-											</div>
-										</div>
 									</div>
 								</CardContent>
 							</Card>
 						)}
 					</div>
-
-					<Card className='mt-8'>
-						<CardHeader>
-							<CardTitle>Understanding GPA Scales</CardTitle>
-						</CardHeader>
-						<CardContent>
-							<div className='prose max-w-none'>
-								<p className='text-gray-600 mb-4'>
-									Different educational systems use various GPA scales. Our converter helps you translate your grades between these systems.
-								</p>
-								<div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-									<div>
-										<h3 className='text-lg font-semibold mb-2'>Common Scales:</h3>
-										<ul className='list-disc list-inside space-y-1 text-gray-600'>
-											<li><strong>4.0 Scale:</strong> Most common in US universities</li>
-											<li><strong>5.0 Scale:</strong> Weighted GPA with honors/AP classes</li>
-											<li><strong>10.0 Scale:</strong> Common in Indian institutions</li>
-											<li><strong>Percentage:</strong> Direct percentage grades</li>
-										</ul>
-									</div>
-									<div>
-										<h3 className='text-lg font-semibold mb-2'>Important Notes:</h3>
-										<ul className='list-disc list-inside space-y-1 text-gray-600'>
-											<li>Conversions are approximate</li>
-											<li>Different institutions may have variations</li>
-											<li>Check with target institution for exact requirements</li>
-											<li>Some scales may not convert directly</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</CardContent>
-					</Card>
 				</div>
 			</div>
 		</>
